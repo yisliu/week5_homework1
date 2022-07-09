@@ -11,13 +11,14 @@ int main() {
   int d = -1000000000;
   cin>>a>>b;
   //checking loop
-  if(c>a and b>d){
-    //output loop
-    if(a>b){
-      cout<<a<<endl<<b;
-    }
-    //output loop
-    else if(a<b){
-      cout<<b<<endl<<a;
-    }      
+  // if(c>a and b>d){
+  //   //output loop
+  //   if(a>b){
+  //     cout<<a<<endl<<b;
+  //   }
+  //   //output loop
+  //   else if(a<b){
+  //     cout<<b<<endl<<a;
+  //   }     
+  cout<<max(a,b);
 }
